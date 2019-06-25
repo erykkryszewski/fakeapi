@@ -1,11 +1,62 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
+  {
+    "success": true,
+    "data": {
+        "entry": {
+            "id": 21,
+            "categoryId": 37,
+            "dateTime": 1561388021,
+            "image":{
+                "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+            },
+            "title": "Co niesie nam 2019 rok?"
+            "excerpt": "Jest dobrze, a będzie jeszcze lepiej.",
+            "content": [],
+            "previous": {
+                "id": 20,
+                "categoryId": 37,
+                "dateTime": 1561386173,
+                "image":{
+                    "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                    "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                },
+                "title": "Co niesie nam 2019 rok?",
+                "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+            },
+            "next": {
+                "id": 22,
+                "categoryId": 37,
+                "dateTime": 1561389178,
+                "image":{
+                    "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                    "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                },
+                "title": "Co niesie nam 2019 rok?",
+                "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+            },
+            "seeAlso": [
+                {
+                    "id": 22,
+                    "categoryId": 37,
+                    "dateTime": 1561389178,
+                    "image":{
+                        "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                        "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                    },
+                    "title": "Co niesie nam 2019 rok?",
+                    "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+                },
+                {
+                    "id": 23,
+                    "categoryId": 37,
+                    "dateTime": 1561311045,
+                    "image":{
+                        "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                        "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                    },
+                    "title": "Co niesie nam 2019 rok?",
+                    "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+                },
+            ]
+        }
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
