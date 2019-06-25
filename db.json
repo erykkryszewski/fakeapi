@@ -1,14 +1,65 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "success": true,                                                                // (bool) response status (true on success, false on failure)
+    "data": {                                                                       // (object) response data
+        "entry": {                                                                  // (object) entry object (full)
+            "id": 21,                                                               // (int) entry id
+            "categoryId": 37,                                                       // (int) category id
+            "dateTime": 1561388021,                                                 // (int) timestamp
+            "image":{                                                               // (object|null) image object (null for no image)
+                "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",             //  - (string) thumbnail path
+                "full": "/image/full-co-niesie-nam-2019-rok.jpg"                    //  - (string) full-size image path
+            },
+            "title": "Co niesie nam 2019 rok?",                                     // (string) entry title
+            "excerpt": "Jest dobrze, a będzie jeszcze lepiej.",                     // (string|null) lead (null for no lead specified)
+            "content": [                                                            // (array) array of content elements
+                //...
+            ],
+            "previous": {                                                           // (object) entry object (simplified) [descripted in: /api/entry/list.json
+                "id": 20,
+                "categoryId": 37,
+                "dateTime": 1561386173,
+                "image":{
+                    "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                    "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                },
+                "title": "Co niesie nam 2019 rok?",
+                "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+            },
+            "next": {                                                               // (object) entry object (simplified) [descripted in: /api/entry/list.json
+                "id": 22,
+                "categoryId": 37,
+                "dateTime": 1561389178,
+                "image":{
+                    "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                    "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                },
+                "title": "Co niesie nam 2019 rok?",
+                "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+            },
+            "seeAlso": [                                                            // (array) array of entry object
+                {                                                                   // (object) entry object (simplified) [descripted in: /api/entry/list.json
+                    "id": 22,
+                    "categoryId": 37,
+                    "dateTime": 1561389178,
+                    "image":{
+                        "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                        "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                    },
+                    "title": "Co niesie nam 2019 rok?",
+                    "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+                },
+                {                                                                   // (object) entry object (simplified) [descripted in: /api/entry/list.json
+                    "id": 23,
+                    "categoryId": 37,
+                    "dateTime": 1561311045,
+                    "image":{
+                        "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",
+                        "full": "/image/full-co-niesie-nam-2019-rok.jpg"
+                    },
+                    "title": "Co niesie nam 2019 rok?",
+                    "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
+                },
+            ]
+        }
+    }
 }
