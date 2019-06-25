@@ -1,5 +1,10 @@
 {
   "success": true,
+  "data": {
+    "entry": {
+      "id": 21
+    }
+  },
   "posts": [
     {
       "id": 1,
