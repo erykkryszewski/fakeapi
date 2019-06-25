@@ -1,7 +1,7 @@
 {
-    "success": true,                                                                
-    "data": {                                                                      
-        "entry": {                                                                  
+    "success": true,                                                               
+    "data": {                                                                     
+        "entry": {                                                                
             "id": 21,                                                               
             "categoryId": 37,                                                       
             "dateTime": 1561388021,                                                 
@@ -35,7 +35,7 @@
                 "title": "Co niesie nam 2019 rok?",
                 "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
             },
-            "seeAlso": [
+            "seeAlso":
                 {                                                                
                     "id": 22,
                     "categoryId": 37,
@@ -58,7 +58,6 @@
                     "title": "Co niesie nam 2019 rok?",
                     "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
                 },
-            ]
         }
     }
 }
