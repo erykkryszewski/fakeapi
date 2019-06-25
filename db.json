@@ -45,7 +45,6 @@
                     "title": "Co niesie nam 2019 rok?",
                     "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
                 },
-                {
                     "id": 23,
                     "categoryId": 37,
                     "dateTime": 1561311045,
@@ -55,6 +54,6 @@
                     },
                     "title": "Co niesie nam 2019 rok?",
                     "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
-                },
+                }
         }
     }
