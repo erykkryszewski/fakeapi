@@ -1,20 +1,19 @@
 {
-    "success": true,                                                                // (bool) response status (true on success, false on failure)
-    "data": {                                                                       // (object) response data
-        "entry": {                                                                  // (object) entry object (full)
-            "id": 21,                                                               // (int) entry id
-            "categoryId": 37,                                                       // (int) category id
-            "dateTime": 1561388021,                                                 // (int) timestamp
-            "image":{                                                               // (object|null) image object (null for no image)
-                "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",             //  - (string) thumbnail path
-                "full": "/image/full-co-niesie-nam-2019-rok.jpg"                    //  - (string) full-size image path
+    "success": true,                                                                
+    "data": {                                                                      
+        "entry": {                                                                  
+            "id": 21,                                                               
+            "categoryId": 37,                                                       
+            "dateTime": 1561388021,                                                 
+            "image":{                                                               
+                "thumbnail": "/image/thumb-co-niesie-nam-2019-rok.jpg",             
+                "full": "/image/full-co-niesie-nam-2019-rok.jpg"                    
             },
-            "title": "Co niesie nam 2019 rok?",                                     // (string) entry title
-            "excerpt": "Jest dobrze, a będzie jeszcze lepiej.",                     // (string|null) lead (null for no lead specified)
-            "content": [                                                            // (array) array of content elements
-                //...
+            "title": "Co niesie nam 2019 rok?",                                     
+            "excerpt": "Jest dobrze, a będzie jeszcze lepiej.",                     
+            "content": [
             ],
-            "previous": {                                                           // (object) entry object (simplified) [descripted in: /api/entry/list.json
+            "previous": {                                                          
                 "id": 20,
                 "categoryId": 37,
                 "dateTime": 1561386173,
@@ -25,7 +24,7 @@
                 "title": "Co niesie nam 2019 rok?",
                 "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
             },
-            "next": {                                                               // (object) entry object (simplified) [descripted in: /api/entry/list.json
+            "next": {                                                               
                 "id": 22,
                 "categoryId": 37,
                 "dateTime": 1561389178,
@@ -36,8 +35,8 @@
                 "title": "Co niesie nam 2019 rok?",
                 "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
             },
-            "seeAlso": [                                                            // (array) array of entry object
-                {                                                                   // (object) entry object (simplified) [descripted in: /api/entry/list.json
+            "seeAlso": [
+                {                                                                
                     "id": 22,
                     "categoryId": 37,
                     "dateTime": 1561389178,
@@ -48,7 +47,7 @@
                     "title": "Co niesie nam 2019 rok?",
                     "excerpt": "Jest dobrze, a będzie jeszcze lepiej."
                 },
-                {                                                                   // (object) entry object (simplified) [descripted in: /api/entry/list.json
+                {                                      
                     "id": 23,
                     "categoryId": 37,
                     "dateTime": 1561311045,
